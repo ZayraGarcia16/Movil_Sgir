@@ -1,0 +1,9 @@
+POST http://localhost:7700/api/login
+Content-Type: application/json
+
+{
+  "correo": "marlenycharris@gmail.com",
+  "contrasena": "Maria1993"
+}
+
+
