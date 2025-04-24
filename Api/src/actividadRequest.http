@@ -1,0 +1,26 @@
+###
+
+POST http://localhost:7700/api/actividad HTTP/1.1
+Content-Type: application/json
+
+{    
+    "nombre": "Ciudad de puertas abiertas",
+    "descripcion": "Se hace una caminata por el pueblo y centros historicos",
+    "duracion": "3",
+    "categoria": "Caminata",
+    "ubicacion": "Manizales",
+    "precio": "250000"
+
+}
+
+###
+
+GET http://localhost:7700/api/actividad HTTP/1.1
+
+###
+
+GET http://localhost:7700/api/actividad/67586a3f17c99cb8a3afed4b HTTP/1.1
+
+###
+
+DELETE http://localhost:7700/api/actividad/67586a3f17c99cb8a3afed4b HTTP/1.1
