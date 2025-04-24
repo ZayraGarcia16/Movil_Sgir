@@ -1,0 +1,25 @@
+###
+
+POST http://localhost:7700/api/transporte HTTP/1.1
+Content-Type: application/json
+
+{    
+    "nombre": "Bus Turístico LineasVerdes",
+    "capacidad": 33,
+    "descripcion": "Bus con asientos reclinables y aire acondicionado para viajes largos.",
+    "comodidades": ["Baño"],
+    "placa": "ZYX-9876",
+    "categoria": "Escolar"
+}
+
+###
+
+GET http://localhost:7700/api/transporte HTTP/1.1
+
+###
+
+GET http://localhost:7700/api/transporte/6759182fc767cadc68d97c04 HTTP/1.1
+
+###
+
+DELETE http://localhost:7700/api/transporte/6759182fc767cadc68d97c04 HTTP/1.1
